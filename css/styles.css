@@ -1,0 +1,28 @@
+video#bgvid {
+	position: fixed; right: 0; bottom: -165px;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background-size: cover;
+}
+
+.overlay {
+	width:100%;
+	max-width:920px;
+	margin:5% auto auto auto;
+	background:rgba(255,255,255,0.7);
+	padding:20px;
+	text-align:center;
+}
+
+.overlay h1 {
+	font-family:helvetica,arial,sans-serif;
+	color:#313131;
+	font-size:25px;
+}
+
+.overlay h2 {
+	font-family:helvetica,arial,sans-serif;
+	color:#313131;
+	font-size:18px;
+	text-align:right;
+}
