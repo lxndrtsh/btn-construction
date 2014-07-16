@@ -17,7 +17,16 @@
 <div class="overlay">
 	<h1>We're too busy enjoying this tasty video, but we'll create a real website soon.</h1>
 	<h2>- The Nerds</h2>
+
+	<h3>Unmute this glorious video.</h3>
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+$('h3').on('click', function() {
+	$('#bgvid').prop('muted', false);
+});
+</script>
  
 </body>
 </html>

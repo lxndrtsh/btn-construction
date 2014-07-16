@@ -26,3 +26,10 @@ video#bgvid {
 	font-size:18px;
 	text-align:right;
 }
+
+.overlay h3 {
+	font-family:helvetica,arial,sans-serif;
+	color:#313131;
+	font-size:18px;
+	cursor: pointer;
+}
