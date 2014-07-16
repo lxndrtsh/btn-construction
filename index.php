@@ -9,7 +9,7 @@
 	<link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
- <video autoplay loop muted id="bgvid">
+ <video autoplay loop muted poster="img/poster.png" id="bgvid">
 	<source src="video/wgo.mp4" type="video/mp4">
 	<source src="video/wgo.webm" type="video/webm">
 </video>
